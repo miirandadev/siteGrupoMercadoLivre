@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* CARD PRINCIPAL */
+.content_conteiner {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    padding: 100px 25px 30px;
+    border-radius: 40px;
+    background-color: rgb(94, 163, 228);
+}
+
+/* LOGO */
+.container_img {
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.container_img img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 35%;
+    
+}
+
+/* TÍTULO */
+.title {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(255, 203, 34);
+}
+
+.title p {
+    max-width: 70%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+}
+/* OFERTAS */
+.ofertas {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* LOGOS MERCADO LIVRE / MERCADO PAGO */
+.logo_ml_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px;
+    background-color: rgb(158, 158, 144);
+    border-radius: 20px;
+}
+
+.logo_ml_container:hover{
+    background-color: rgb(158, 158, 157);
+}
+
+.logo_ml_container img {
+    width: 100px;
+    height: auto;
+}
+
+/* TEXTOS DAS OFERTAS */
+
+.text_ofertas h3 {
+    margin: 8px 0;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* ÍCONES */
+.svg-inline--fa {
+    color: rgb(255, 203, 34);
+}
+
+/* BOTÃO */
+.botao {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao button {
+    width: 40%;
+    height: 8vh;
+    background-color:rgb(62, 196, 50);
+    border: none;
+    border-radius: 20px;
+}
+
+.botao button:hover{
+    background-color: rgb(71, 199, 92);
+    cursor: pointer;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* CONFIANÇA */
+.confidence {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confidence h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.confidence p {
+    font-size: 14px;
+    line-height: 1.4;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+
